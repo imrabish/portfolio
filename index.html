@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Catamaran:wght@200&family=Courgette&family=Dancing+Script:wght@700&family=Edu+TAS+Beginner:wght@700&family=Lato:wght@300;900&family=Mukta:wght@700&family=Mulish:wght@300&family=Open+Sans&family=PT+Sans:ital,wght@1,700&family=Poppins:wght@300&family=Raleway:wght@100&family=Roboto&family=Roboto+Condensed:wght@700&family=Roboto+Slab&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/f30fac2c61.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <div class="logo">
+          <h1>Developer<span>X</span></h1>
+        </div>
+        <ul>
+          <li><a href="#Home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#service">Services</a></li>
+          <li><a href="#work">My Work</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+        <i id="bar" class="fa-solid fa-bars"></i>
+      </nav>
+
+      <div class="main">
+        <div class="mainText">
+          <h3>Hello I am</h3>
+          <h1>Rabish <span>Kumar </span> Parvat</h1>
+          <p>Full Stack Developer</p>
+          <!--Add Links-->
+          <div
+        class="icon-container"
+            
+          >
+          
+
+            <button  class="icon">
+              <a
+                href="https://linkedin.com/in/rabish-kumar-parvat-685720264/" class="social-icon"
+                target="__blank"
+              >
+              <span>Linkedin</span>
+                <img
+                  src="images/linkedin.svg"
+                  alt="Linkedin profile"
+                 
+              /></a>
+            </button>
+
+            <button  class="icon">
+              <a href="https://github.com/imrabish" class="social-icon" target="__blank">
+                <span>Github</span>
+                <img
+                src="images/github.svg"
+                alt="Github profile"
+               
+              />
+              </a>
+            </button>
+            <button
+            id="cvBtn"
+            class="icon"
+            onclick="window.open('./images/rabish-resume.pdf')"
+          >
+            Download CV
+          </button>
+          </div>
+        </div>
+        <img
+          src="images/profile1-removebg-preview.png"
+          alt=""
+          class="profile-image"
+        />
+      </div>
+
+      <div class="aboutus" id="about">
+        <div class="head">
+          <h1>About <span>Us</span></h1>
+        </div>
+        <div class="about">
+          <img src="images/profile2.png" alt="" />
+          <div class="aboutText">
+            <h2>Hello I am FullStack <span>Developer</span></h2>
+            <p>Experience :<span> Fresher</span></p>
+            <p>
+              Speciality :<span> Website Development & Java Developer</span>
+            </p>
+            <p>Skills :<span> Full Stack Developer, Java, MySQL, Git</span></p>
+            <p>Email :<span> rabish876sw@gmail.com</span></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="services" id="service">
+        <div class="head">
+          <h1>Our <span>Services</span></h1>
+        </div>
+        <div class="service">
+          <div class="card">
+            <i class="fa-solid fa-code"></i>
+            <h3>Website Development</h3>
+            <p>
+              As a skilled and dedicated web developer, I offer personalized
+              website development services tailored to meet the specific needs
+              of your business. With a passion for design and a deep
+              understanding of the latest web technologies, I create
+              high-performance, responsive websites that provide exceptional
+              user experiences and visually captivating designs.
+            </p>
+          </div>
+          <div class="card">
+            <i class="fa-solid fa-code"></i>
+            <h3>Java Developer</h3>
+            <p>
+              As an experienced Java Developer, I specialize in building robust
+              and scalable applications tailored to your business needs. With
+              deep expertise in Java programming and frameworks, I deliver
+              efficient solutions that drive results. Whether you need custom
+              software, web applications, or system integrations, I bring
+              precision and quality to every project.
+            </p>
+          </div>
+
+          <div class="card">
+            <i class="fa-solid fa-code"></i>
+            <h3>Database Creation</h3>
+            <p>
+              With expertise in database design and management, I offer custom
+              database creation services tailored to your business needs. I
+              build efficient, secure, and scalable databases that ensure
+              seamless data storage, retrieval, and integrity. Whether you need
+              a simple relational database or a more complex solution, I provide
+              robust architectures that support your applications and help
+              optimize your data management processes.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="works" id="work">
+        <div class="head">
+          <h1>My <span>Works</span></h1>
+        </div>
+        <div class="myWork">
+          <div class="workCard">
+            <img src="images/project-1.png" alt="project-1" />
+            <p>Currency converter</p>
+          </div>
+          <div class="workCard">
+            <img src="images/project-2.png" alt="project-2" />
+            <p>Myntra Functional Clone</p>
+          </div>
+          <div class="workCard">
+            <img src="images/project-3.png" alt="Project-3" />
+            <p>Image Finder App</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="connect" id="contact">
+        <div class="head">
+          <h1>Contact <span>Us</span></h1>
+        </div>
+        <form
+          action="https://api.web3forms.com/submit"
+          method="POST"
+          class="contact"
+        >
+          <input
+            type="hidden"
+            name="access_key"
+            value="773f063b-d267-473d-9eba-4a69f257c98d"
+          />
+          <label>Name :</label>
+          <input
+            type="text"
+            name="name"
+            placeholder="Enter Your Name"
+            id="email"
+          />
+          <label>Email :</label>
+          <input
+            type="email"
+            name="email"
+            placeholder="Enter Your Email"
+            id="pass"
+          />
+          <label>Message :</label>
+          <input
+            type="text"
+            name="message"
+            placeholder="Enter Message"
+            id="msg"
+          />
+          <button id="submit" type="submit">Submit</button>
+        </form>
+      </div>
+
+      <!--Advance Changes-->
+      <div class="footer">
+        <div class="text">
+          <h3>Connect Here :</h3>
+          <p
+            class="rabish"
+            onclick="location.href='https://linkedin.com/in/rabish-kumar-parvat-685720264/'"
+          >
+            Linkedin
+          </p>
+          <p class="rabish" onclick="location.href='https://x.com/rabish18583'">
+            Twitter
+          </p>
+          <p
+            class="rabish"
+            onclick="location.href='https://www.instagram.com/rabish_parvat07/profilecard/?igsh=aHlmajc3dDY2dnJh'"
+          >
+            Instagram
+          </p>
+          <p
+            class="rabish"
+            onclick="location.href='https://github.com/imrabish'"
+          >
+            Github
+          </p>
+        </div>
+        <div class="text">
+          <h3 class="rabish" onclick="location.href='./#service'">My Work</h3>
+          <p>quality</p>
+          <p>Good</p>
+          <p>Best price</p>
+          <p>Best</p>
+        </div>
+        <div class="text">
+          <h3 class="rabish" onclick="location.href='./#work'">Effort</h3>
+          <p>Quality</p>
+          <p>Affordable</p>
+          <p>Good</p>
+          <p>Best Price</p>
+        </div>
+        <div class="text">
+          <h3 class="rabish" onclick="location.href='./#contact'">Contact</h3>
+          <p
+            class="rabish"
+            onclick="window.location.href='mailto:rabish876sw@gmail.com'"
+          >
+            Email
+          </p>
+          <p class="rabish" onclick="window.location.href='sms:+9693736230'">
+            Message
+          </p>
+          <p>Phone :</p>
+          <p class="rabish" onclick="window.location.href='tel: +9693736230'">
+            9693736230
+          </p>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
